@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.myfirstandroidapp.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.colorAccent"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="164"
+            endLine="5"
+            endColumn="30"
+            endOffset="182"/>
+        <location id="R.color.colorPrimary"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="64"
+            endLine="3"
+            endColumn="31"
+            endOffset="83"/>
+        <location id="R.color.colorPrimaryDark"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="112"
+            endLine="4"
+            endColumn="35"
+            endOffset="135"/>
+        <entry
+            name="model"
+            string="color[colorPrimary(D),colorPrimaryDark(D),colorAccent(D)],id[textView(U)],layout[activity_main(U)],string[app_name(U)];;;;"/>
+    </map>
+
+</incidents>

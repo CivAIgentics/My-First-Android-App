@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\steve\OneDrive\Folders\Desktop\ElevenLabs Agents\elevenlabs-ui-project\City of Midland Custom UI\My First Android App\app"
+    name=":app"
+    type="APP"
+    maven="My First Android App:app:"
+    agpVersion="8.2.0"
+    buildFolder="build"
+    bootClassPath="C:\Users\steve\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\steve\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
