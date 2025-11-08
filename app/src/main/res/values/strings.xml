@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My First Android App</string>
+    <string name="app_name">Jacky 2.0</string>
+    <string name="app_description">City of Midland AI Assistant</string>
+    <string name="loading">Loading Jacky…</string>
+    <string name="error_network">No internet connection. Please check your network settings.</string>
+    <string name="error_loading">Failed to load Jacky. Please try again.</string>
+    <string name="permission_microphone">Jacky needs microphone access for voice conversations.</string>
+    <string name="permission_denied">Microphone permission denied. Voice features will not work.</string>
 </resources>
